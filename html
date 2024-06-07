@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Grid Layout with Colors</title>
+	<style>
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 2fr 1fr 2fr;
+			grid-gap: 20px;
+			background-color: #f0f0f0;
+			padding: 20px;
+		}
+		
+		.item {
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+		}
+		
+		.item:nth-child(1) {
+			background-color: #ff69b4;
+		}
+		
+		.item:nth-child(2) {
+			background-color: #33cc33;
+		}
+		
+		.item:nth-child(3) {
+			background-color: #0066ff;
+		}
+		
+		.item:nth-child(4) {
+			background-color: #ffff66;
+		}
+		
+		.item:nth-child(5) {
+			background-color: #cc0099;
+		}
+		
+		.item:nth-child(6) {
+			background-color: #0099cc;
+		}
+		
+		.item:nth-child(7) {
+			background-color: #ffcc00;
+		}
+		
+		.item:nth-child(8) {
+			background-color: #6600cc;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item">Item 1</div>
+		<div class="item">Item 2</div>
+		<div class="item">Item 3</div>
+		<div class="item">Item 4</div>
+		<div class="item">Item 5</div>
+		<div class="item">Item 6</div>
+		<div class="item">Item 7</div>
+		<div class="item">Item 8</div>
+	</div>
+</body>
+</html>
